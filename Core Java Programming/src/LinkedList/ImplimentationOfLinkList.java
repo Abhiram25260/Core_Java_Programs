@@ -28,21 +28,17 @@ public class ImplimentationOfLinkList {
 			insert_At_Index();
 			break;
 		case 4:
-			
+			delete_Front();
 			break;
 		case 5:
-			
+			delete_Rear();
 			break;
 		case 6:
-			
+			delete_At_Index();
 			break;
 		case 7:
-			
+			View();
 			break;
-		case 8:
-			
-			break;
-
 		default:
 			System.exit(0);
 			break;
@@ -73,5 +69,22 @@ public class ImplimentationOfLinkList {
 	static void insert_At_Index() {
 		llIntegers.add(index(),input());
 	}
-
+	//FOR DELETING ELEMENT FROM THE FIRST
+	static void delete_Front() {
+		llIntegers.removeFirst();
+	}
+	//FOR DELETING ELEMENT FROM THE LAST
+	static void delete_Rear() {
+		llIntegers.removeLast();
+	}
+	//FOR DELETING ELEMENT FROM THE LAST
+	static void delete_At_Index() {
+		llIntegers.remove(index());
+	}
+	//FOR DELETING ELEMENT FROM THE LAST
+	static void View() {
+		for(int a:llIntegers) {
+			System.out.print(a+"\t");
+		}
+	}
 }
