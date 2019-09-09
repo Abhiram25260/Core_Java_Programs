@@ -1,7 +1,5 @@
 package LinkedList;
 import java.util.*;
-
-import InfixToPrefix.inTopre;
 public class ImplimentationOfLinkList {
 	private static Scanner scanner;
 	static LinkedList<Integer> llIntegers=new LinkedList<>();
@@ -20,7 +18,7 @@ public class ImplimentationOfLinkList {
 		
 		switch (choice) {
 		case 1:
-			insert_front();
+			//insert_front();
 			break;
 		case 2:
 			
