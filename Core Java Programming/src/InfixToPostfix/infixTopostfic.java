@@ -19,7 +19,7 @@ public class infixTopostfic {
 		
 		for(int i=0;i<charexp.length;i++) {
 			char c=charexp[i];
-			//if its an operater it check the precedense accordingly it pops//
+			//if its an operator it check the precedence accordingly it pops//
 			if(Precedence(c)>0){
 				while (stack.isEmpty()==false && Precedence(stack.peek())>=(Precedence(c))) {
 					result.append(stack.pop());
