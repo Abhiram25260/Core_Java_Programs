@@ -11,7 +11,7 @@ public class Bubble_Sort {
 		}
 		bubble_sort(arr);
 		System.out.println("AFTER THE BUBBLE SORT THE SORTED ELEMENTS ARE:");
-		display(arr);
+		display1(arr);
 	}
 	static void bubble_sort(int[] arr) {
 		int n=arr.length;
@@ -25,7 +25,7 @@ public class Bubble_Sort {
 			}
 		}
 	}
-	static void display(int[] arr) {
+	static void display1(int[] arr) {
 		for(int k:arr) {
 			System.out.print(k+" ");
 		}
