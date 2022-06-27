@@ -26,8 +26,8 @@ public class Bubble_Sort {
 		}
 	}
 	static void display1(int[] arr) {
-		for(int k:arr) {
-			System.out.print(k+" ");
+		for(int x:arr) {
+			System.out.print(x+" ");
 		}
 	}
 
