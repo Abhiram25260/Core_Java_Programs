@@ -6,7 +6,7 @@ public class DecimalToBinaryQueue {
 	static Stack<Integer> stack=new Stack<Integer>();
 	public static void main(String[] args) {
 		scanner=new Scanner(System.in);
-		System.out.print("Enter the Decimal: ");
+		System.out.print("Enter the Decimal:> ");
 		int Decimal=scanner.nextInt();
 		Convert(Decimal);
 	}
